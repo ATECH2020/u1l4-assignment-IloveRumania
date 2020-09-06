@@ -12,8 +12,8 @@ class AnalogClock {
         /*
          *  your code goes here
          */
-         int final MINSINHR = 60;
-         int final DEGINMIN = 6;
+         final int MINSINHR = 60;
+         final int DEGINMIN = 6;
          int mins2 = mins1 % MINSINHR;
          int mins3 = mins2 * DEGINMIN;
          System.out.println(mins3);
