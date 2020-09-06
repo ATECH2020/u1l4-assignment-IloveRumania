@@ -23,7 +23,7 @@ class StudentDesks {
          desks3 = (int)Math.round(desks3);
          int totalDesks = (int)desks1 + (int)desks2 + (int)desks3;
          System.out.println(totalDesks);
-         //This can only work if I use doubles.
+
         // closing the scanner object
         scanner.close();
     }
