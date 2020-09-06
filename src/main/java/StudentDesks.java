@@ -1,4 +1,5 @@
 import java.util.Scanner;
+import java.lang.Math;
 
 class StudentDesks {
     public static void main(String[] args) {
@@ -14,13 +15,15 @@ class StudentDesks {
         /*
          *  your code goes here
          */
-         int desks1 = students1 / 2;
-         int desks2 = students2 / 2;
-         int desks3 = students3 / 2;
-         System.out.println(Math.round(desks1));
-         System.out.println(Math.round(desks2));
-         System.out.println(Math.round(desks3));
-
+         double desks1 = students1 / 2.0;
+         desks1 = Math.round(desks1);
+         double desks2 = students2 / 2.0;
+         desks2 = Math.round(desks2);
+         double desks3 = students3 / 2.0;
+         desks3 = Math.round(desks3);
+         double totalDesks = desks1 + desks2 + desks3;
+         System.out.println(totalDesks);
+         //This can only work if I use doubles.
         // closing the scanner object
         scanner.close();
     }
