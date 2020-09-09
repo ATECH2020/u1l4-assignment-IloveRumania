@@ -16,7 +16,7 @@ class AnalogClock {
          final int DEGINMIN = 6;
          int mins2 = mins1 % MINSINHR;
          int mins3 = mins2 * DEGINMIN;
-         System.out.println(mins3);
+         System.out.print(mins3);
         // closing the scanner object
         scanner.close();
     }
