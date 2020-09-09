@@ -28,7 +28,7 @@ class Timestamps {
            total1 = secInHour1 + secInMins1 + seconds1;
            total2 = secInHour2 + secInMins2 + seconds2;
            diff = total2 - total1;
-           System.out.println(diff);
+           System.out.print(diff);
 
 
         // closing the scanner object
