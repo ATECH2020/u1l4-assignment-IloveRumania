@@ -22,7 +22,7 @@ class StudentDesks {
          double desks3 = students3 / 2.0;
          desks3 = (int)Math.round(desks3);
          int totalDesks = (int)desks1 + (int)desks2 + (int)desks3;
-         System.out.println(totalDesks);
+         System.out.print(totalDesks);
 
         // closing the scanner object
         scanner.close();
