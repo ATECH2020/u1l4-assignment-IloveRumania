@@ -16,8 +16,7 @@ class AnalogClock {
 
          int currentHourDegrees = hourDegrees % DEGINHR * 12;//For one degree the hour hand moves, the minute hand moves 12 degrees.
          //Degrees hr hand moved since last full hour.
-
-
+         System.out.print(currentHourDegrees);
         // closing the scanner object
         scanner.close();
     }
